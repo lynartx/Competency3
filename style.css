@@ -1,0 +1,96 @@
+.nav-bar{
+	display: flex;
+	flex-wrap: wrap;
+	list-style-type: none;
+	justify-content: center;
+}
+
+.link{
+	background-color: #3d322b;
+	border-radius: 8px;
+	color: #fff3db;
+	text-decoration: none;
+	padding: 10px;
+}
+
+.link:visited{
+	color: #bfa595;
+}
+
+.link:hover{
+	background-color: #bfa595;
+	color: #3d322b
+}
+
+.link:active{
+	color: #ffffff;
+}
+
+.link:focus{
+	background-color: #bfa595;
+	color: #3d322b
+}
+
+.header {
+	text-align: center;
+	padding-top: 1rem;
+}
+
+.hero{
+	background-image: url('images/hero.jpg');
+	background-position: 0% 75%;
+	background-size: cover;
+	color: #ffffff;
+	padding: 10%;
+	text-align: center;
+}
+
+h1{
+	font-size: 4rem;
+	margin-bottom: 0;
+	text-shadow: 2px 2px #000000;
+}
+
+h2{
+	font-size: 1rem;
+	font-weight: normal;
+	margin-top: 0;
+	text-transform: uppercase;
+}
+
+h3{
+	font-size: 1.8rem;
+	color: #d17e32;
+	margin-top: 40px;
+	margin-bottom: 10px;
+}
+
+p{
+	font-size: 1.1rem;
+	line-height: 1.8rem;
+	color: #555;
+}
+
+li{
+	margin: 15px;
+}
+
+body{
+	margin: 0;
+}
+
+main{
+	width: 70%;
+	max-width: 700px;
+	margin: auto;
+}
+
+footer{
+	background-color: #e9d8c8;
+	text-align: center;
+	padding: 1rem;
+}
+
+footer > img{
+	margin: 0.5rem;
+}
